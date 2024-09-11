@@ -53,7 +53,7 @@ a{
     align-items: flex-end;
  }
 
- .main{
+ .page_1{
     display: flex;
     margin-bottom: 100px;
     justify-content: space-around;
@@ -62,7 +62,7 @@ a{
  .main_left_content{
     max-width: 556px;
  }
-main h1{
+.page_1 h1{
     font-size: 60px;
     font-weight: 700;
     line-height: 120%;
@@ -70,7 +70,7 @@ main h1{
     margin-bottom: 20px;
 }
 
-main h2{
+.page_1 h2{
     color: rgb(136, 136, 136);
     font-size: 20px;
     font-weight: 400;
@@ -78,7 +78,7 @@ main h2{
 
     margin-bottom: 32px;
 }
- .main img{
+.page_1 img{
     width: 545px;
  }
 .buttons{
@@ -121,7 +121,89 @@ gap: 40px;
 
  .logos{
     padding:100px 0;
-
     display: flex;
     justify-content: space-between;
  }
+
+ .top_space{
+   display: flex;
+   justify-content: space-between;
+   padding: 100px 0;
+ }
+
+ .block_top_space{
+   max-width: 378px;
+   padding: 40px 34px; 
+ }
+
+ .block_top_space_mid{
+   max-width: 378px;
+   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+   background: rgb(255, 255, 255);
+   padding: 40px 34px;
+ }
+
+ .page2_top_icon{
+   margin-bottom: 25px;
+ }
+
+ .top_space_top_txt{
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 29px;
+
+   margin-bottom: 18px;
+ }
+
+ .block_top_space p, .block_top_space_mid p{
+   color: rgb(102, 102, 102);
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 150%;
+
+   margin-bottom: 25px;
+ }
+
+ .top_space_down_txt{
+   color: rgb(0, 0, 0);
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 150%;
+ }
+
+ .page2_down{
+   background: rgb(250, 250, 250);
+ }
+ .page_2_label{
+   padding: 100px 0 24px;
+   font-family: Inter;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 120%;
+   text-align: center;
+ }
+
+ .page_2_p{
+
+   color: rgb(136, 136, 136);
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 140%;
+   text-align: center;
+   max-width: 740px;
+
+   margin-bottom: 48px;
+ }
+ .page2_txt{
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+ }
+
+
+
