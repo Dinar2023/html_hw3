@@ -80,6 +80,8 @@ a{
 }
 .page_1 img{
     width: 545px;
+    
+
  }
 .buttons{
 display:flex;
@@ -88,6 +90,9 @@ gap: 40px;
 }
 
   .btn_1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 
     font-family: Inter;
     font-size: 16px;
